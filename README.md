@@ -59,3 +59,24 @@ Students can:
 - View FAQs
 
 ---
+### 5. Contact (contact.html)
+
+This page includes:
+
+- RCL contact details
+- Campus management contact details
+- Contact form
+- Office hours
+- Campus location
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts (Poppins)
+- Font Awesome Icons
+
+---
