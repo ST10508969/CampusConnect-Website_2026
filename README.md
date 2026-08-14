@@ -138,3 +138,34 @@ Home
 - Responsive website layout
 - Font Awesome icons
 - Google Fonts integration
+---
+
+## Future Improvements
+
+The following features can be added in future versions:
+
+- Student login system
+- Admin dashboard
+- Online database
+- Email notifications
+- Live chat support
+- Online appointment booking
+- File upload for complaints
+- Search functionality
+
+---
+## Author
+
+**Name:** Sinoxolo Tyeke
+
+**Institution:** Rosebank College
+
+**Module:** WEDE5020 – Web Development
+
+**Project:** CampusConnect Foundation Website
+
+---
+
+## License
+
+This project was created for educational purposes as part of the WEDE5020 Web Development module at Rosebank College.
