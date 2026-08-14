@@ -18,3 +18,17 @@ The purpose of this website is to:
 - Provide contact information for the RCL and campus management.
 
 ---
+## Website Pages
+
+### 1. Home (index.html)
+
+The homepage introduces CampusConnect Foundation and includes:
+
+- Welcome message
+- Hero section
+- Latest announcements
+- About preview
+- Services preview
+- Call-to-action
+- Navigation menu
+- Footer
