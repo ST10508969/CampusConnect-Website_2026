@@ -32,3 +32,30 @@ The homepage introduces CampusConnect Foundation and includes:
 - Call-to-action
 - Navigation menu
 - Footer
+---
+
+### 3. Services (services.html)
+
+This page explains the services offered by CampusConnect Foundation:
+
+- Student Support
+- Academic Support
+- Campus Announcements
+- Contact Directory
+- Resources
+- Frequently Asked Questions (FAQs)
+- Issue Tracking
+
+---
+
+### 4. Enquiry (enquiry.html)
+
+Students can:
+
+- Submit complaints
+- Submit suggestions
+- Report concerns
+- Track submitted issues
+- View FAQs
+
+---
