@@ -80,3 +80,61 @@ This page includes:
 - Font Awesome Icons
 
 ---
+## Project Folder Structure
+
+```text
+CampusConnect/
+│
+├── index.html
+│
+├── Pages/
+│   ├── about.html
+│   ├── services.html
+│   ├── enquiry.html
+│   └── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│   ├── logo.png
+│   ├── students.png
+│   ├── about.jpg
+│   ├── team1.jpg
+│   ├── team2.jpg
+│   ├── team3.jpg
+│   └── map.jpg
+│
+└── README.md
+```
+## Website Hierarchy
+
+```text
+Home
+│
+├── About
+│
+├── Services
+│
+├── Enquiry
+│
+└── Contact
+```
+
+---
+
+## Features
+
+- Responsive navigation
+- Student enquiry form
+- Issue tracking section
+- Contact form
+- Latest announcements
+- Student support information
+- Resources and FAQs
+- Responsive website layout
+- Font Awesome icons
+- Google Fonts integration
