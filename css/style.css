@@ -1,6 +1,12 @@
+
+<!--Google Fonts-->
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 html {
@@ -10,7 +16,199 @@ html {
 body{
     font-family: 'poppins', sans-serif;
     background-color: #ffffff;
-    color: #333;
+    color: #14213d;
     line-height: 1.6;
 
 }
+
+.container{
+    margin:auto;
+    width:90%;
+    max-width:1200;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+a{
+    color:inherit;
+    /* text-decoration:none; */
+}
+
+<!--COLOUR SCHEME-->
+
+:root{
+    --navy: #12294a;
+    --teal: #008f83;
+    --purple: #6936b8;
+    --dark-purple: #522497;
+    --light-purple: #a190bd;
+    --light-blue: #8bb5c3;
+    --light-pink: #f375e0;
+    --light-green: #eef8eb;
+    --light-yellow: #fff08f;
+    --white: #ffffff;
+    --grey: #666666;
+    --dark-grey:#3d3c3c;
+}
+
+.top-bar{
+    background: #eaf7f6;
+    min-height: 35px;
+    font-size: 11px;
+    color: #354052
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.top-left span {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.top-left i {
+    color: var(--navy);
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.follow-us a {
+    color: var(--navy);
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.follow-us a:hover {
+    color: var(--purple);
+}
+
+<!--NAVIGATION BAR-->
+
+header {
+    background: var(--white);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.navbar {
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+<!--LOGO-->
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 62px;
+    height: 62px;
+    object-fit: contain;
+}
+
+.logo-text {
+    line-height: 1.1;
+}
+
+.logo-text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: 0.5px;
+}
+
+.logo-text h1 span {
+    color: var(--teal);
+}
+
+.logo-text h2 {
+    font-size: 11px;
+    color: var(--navy);
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.logo-text p {
+    font-size: 8px;
+    color: #777;
+    margin-top: 4px;
+}
+
+<!--NAVIGATION LINKS-->
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy);
+    position: relative;
+    padding: 30px 0;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--purple);
+}
+
+.nav-links a.active {
+    color: var(--purple);
+}
+
+.nav-links a.active::after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--purple);
+    border-radius: 5px;
+}
+
+<!--LOGIN BUTTON-->
+
+.login-btn {
+    background: var(--purple);
+    color: white !important;
+    padding: 10px 20px !important;
+    border-radius: 6px;
+    font-weight: 500 !important;
+}
+
+.login-btn:hover {
+    background: var(--dark-purple);
+}
+
+
+
+
+
