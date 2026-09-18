@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CampusConnect Foundation | Enquiry</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Submit an Enquiry | CampusConnect Foundation</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
@@ -29,7 +27,7 @@
 
         <div class="top-left">
 
-            <span><i class="fa-solid fa-envelope"></i> info@campusconnect.org.za</span>
+            <span><i class="fa-solid fa-envelope"></i> info@campusconnectnmb.co.za</span>
 
             <span><i class="fa-solid fa-phone"></i> +27 41 123 4567</span>
 
@@ -39,13 +37,15 @@
 
         <div class="top-right">
 
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <span>Follow Us</span>
 
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
 
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
 
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
 
         </div>
 
@@ -59,220 +59,160 @@
 
     <div class="container">
 
-        <div class="logo">
+        <a href="../index.html" class="logo">
 
-            <img src="images/logo.png" alt="CampusConnect Logo">
+            <span class="logo-icon"><i class="fa-solid fa-comments"></i></span>
 
-        </div>
+            <span class="logo-text">
+                <span class="logo-name">CAMPUS<span>CONNECT</span></span>
+                <span class="logo-sub">FOUNDATION</span>
+                <span class="logo-tagline">Connecting Students. Empowering Success.</span>
+            </span>
 
-        <nav>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav id="siteNav">
 
             <a href="../index.html">Home</a>
 
-            <a href="about.html">About</a>
+            <a href="./about.html">About Us</a>
 
-            <a href="services.html">Services</a>
+            <a href="./services.html">Services</a>
 
-            <!-- <a href="enquiry.html" class="active">Enquiry</a> -->
-             <a href="enquiry.html">Enquiry</a>
+            <a href="./enquiry.html" class="active">Enquiry</a>
 
-            <a href="contact.html">Contact</a>
+            <a href="./contact.html">Contact Us</a>
 
         </nav>
+
+        <a href="./enquiry.html" class="nav-btn">
+
+            Get Started
+
+        </a>
 
     </div>
 
 </header>
 
-<!--================ PAGE BANNER ================-->
+<!--================ PAGE HERO ================-->
 
-<section class="page-banner">
+<section class="page-hero">
 
     <div class="container">
+
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size:0.6rem;"></i> <span>Enquiry</span>
+        </div>
 
         <h1>Submit an Enquiry</h1>
 
-        <p>
-
-            Submit your complaints, suggestions or concerns.
-            You can also track the status of your submitted issue.
-
-        </p>
-
     </div>
 
 </section>
 
-<!--================ ENQUIRY FORM ================-->
+<!--================ ENQUIRY FORM + SIDEBAR ================-->
 
-<section class="enquiry">
-
-    <div class="container">
-
-        <div class="enquiry-form">
-           
-        
-            <h2>Submit an Issue</h2>
-
-            <form action="#" method="post">
-                  
-                <label for="fullname">Full Name</label><br>
-                <input type="text" name="fullname" placeholder="Full Name" required>
-                <br />
-
-                <label for="studentnumber">Student Number</label><br>
-                <input type="text" name="studentnumber" placeholder="Student Number" required>
-                <br />
-
-                <label for="email">Email Address</label><br>
-                <input type="email" name="email" placeholder="Email Address" required>
-                <br />
-
-                <label for="phone">Phone Number</label><br>
-                <input type="tel" name="phone" placeholder="Phone Number">
-                <br />
-                 
-                <label for="category">Category</label><br>
-                <select name="category" required>
-                
-
-           <label for="category">Category</label>
-            <option value="" disabled selected>Select Category</option>
-
-
-                    <option>Complaint</option>
-
-                    <option>Suggestion</option>
-
-                    <option>Academic Issue</option>
-
-                    <option>Facilities</option>
-
-                    <option>General Enquiry</option>
-
-                </select><br/>
-
-                <input type="text" name="subject" placeholder="Subject" required><br/>
-                <label for="message">Describe your issue</label></br>
-
-                <textarea name="message" rows="6" placeholder="Describe your issue..." required></textarea><br/>
-
-                <button type="submit" class="primary-btn">
-
-                    Submit Enquiry
-
-                </button>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!--================ TRACK ISSUE ================-->
-
-<section class="track-issue">
+<section class="form-section">
 
     <div class="container">
 
-        <h2>Track Your Issue</h2>
+        <div class="form-layout">
 
-        <p>
+            <div class="form-card">
 
-            Enter your reference number to check the progress
-            of your enquiry.
+                <h3>Submit an Issue</h3>
+                <p>All fields marked <span class="req">*</span> are required.</p>
 
-        </p>
+                <form class="form-grid" onsubmit="return false;">
 
-        <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span class="req">*</span></label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                    </div>
 
-            <input type="text" placeholder="Reference Number">
+                    <div class="form-group">
+                        <label for="studentNo">Student Number <span class="req">*</span></label>
+                        <input type="text" id="studentNo" name="studentNo" placeholder="e.g. 220123456" required>
+                    </div>
 
-            <button type="submit" class="primary-btn">
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="req">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
 
-                Track Issue
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Optional">
+                    </div>
 
-            </button>
+                    <div class="form-group full">
+                        <label for="category">Category <span class="req">*</span></label>
+                        <select id="category" name="category" required>
+                            <option value="" selected disabled>Select Category</option>
+                            <option value="academic">Academic Support &amp; Appeals</option>
+                            <option value="facilities">Facilities &amp; Maintenance</option>
+                            <option value="finance">Fees &amp; Finance</option>
+                            <option value="safety">Campus Safety</option>
+                            <option value="conduct">Staff / Student Conduct</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
 
-        </form>
+                    <div class="form-group full">
+                        <label for="subject">Subject <span class="req">*</span></label>
+                        <input type="text" id="subject" name="subject" placeholder="Short summary of your enquiry" required>
+                    </div>
 
-    </div>
+                    <div class="form-group full">
+                        <label for="description">Description <span class="req">*</span></label>
+                        <textarea id="description" name="description" placeholder="Describe the issue in as much detail as possible..." required></textarea>
+                    </div>
 
-</section>
+                    <div class="form-group full">
+                        <button type="submit" class="form-submit">Submit Issue</button>
+                    </div>
 
-<!--================ FAQ ================-->
+                </form>
 
-<section class="faq">
+            </div>
 
-    <div class="container">
+            <div>
 
-        <h2>Frequently Asked Questions</h2>
+                <div class="info-card" id="track">
 
-        <div class="faq-item">
+                    <h3>Track Your Issue</h3>
+                    <p style="color: var(--gray-500); font-size: 0.88rem; margin-bottom: 16px;">
+                        Enter your reference number to track your issue.
+                    </p>
 
-            <h3>How long does it take to receive a response?</h3>
+                    <form class="track-form" onsubmit="return false;">
+                        <input type="text" placeholder="Reference Number" aria-label="Reference number">
+                        <button type="submit">Track Issue</button>
+                    </form>
 
-            <p>
+                </div>
 
-                Most enquiries receive a response within
-                2–5 working days.
+                <div class="info-card" id="faqs">
 
-            </p>
+                    <h3>FAQs</h3>
+
+                    <ul class="faq-list">
+                        <li><i class="fa-solid fa-circle-question"></i> How do I submit an issue?</li>
+                        <li><i class="fa-solid fa-circle-question"></i> How long does it take?</li>
+                        <li><i class="fa-solid fa-circle-question"></i> How do I track my issue?</li>
+                        <li><i class="fa-solid fa-circle-question"></i> What types of issues can I report?</li>
+                    </ul>
+
+                </div>
+
+            </div>
 
         </div>
-
-        <div class="faq-item">
-
-            <h3>Can I submit anonymous suggestions?</h3>
-
-            <p>
-
-                Yes. Anonymous suggestions can be submitted
-                without providing personal information.
-
-            </p>
-
-        </div>
-
-        <div class="faq-item">
-
-            <h3>How do I know my issue has been received?</h3>
-
-            <p>
-
-                A reference number will be issued after
-                submitting your enquiry.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!--================ CALL TO ACTION ================-->
-
-<section class="cta">
-
-    <div class="container">
-
-        <h2>We're Here to Help</h2>
-
-        <p>
-
-            CampusConnect Foundation is committed to helping
-            students through effective communication and support.
-
-        </p>
-
-        <a href="contact.html" class="primary-btn">
-
-            Contact Us
-
-        </a>
 
     </div>
 
@@ -282,46 +222,68 @@
 
 <footer>
 
-    <div class="container footer-container">
+    <div class="container footer-grid">
 
-        <div class="footer-box">
+        <div class="footer-col footer-brand">
 
-            <img src="images/logo.png" alt="Logo">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-comments"></i></span>
+                <span class="logo-text">
+                    <span class="logo-name">CAMPUS<span>CONNECT</span></span>
+                    <span class="logo-sub">FOUNDATION</span>
+                </span>
+            </a>
 
-            <p>
-
-                Empowering students through
-                communication and support.
-
-            </p>
-
-        </div>
-
-        <div class="footer-box">
-
-            <h3>Quick Links</h3>
-
-            <a href="../index.html">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="services.html">Services</a>
-
-            <a href="enquiry.html">Enquiry</a>
-
-            <a href="contact.html">Contact</a>
+            <p>Improving communication between students and campus management.</p>
 
         </div>
 
-        <div class="footer-box">
+        <div class="footer-col">
 
-            <h3>Contact</h3>
+            <h4>Quick Links</h4>
 
-            <p>+27 41 123 4567</p>
+            <a href="../index.html"><i class="fa-solid fa-angle-right"></i> Home</a>
+            <a href="./about.html"><i class="fa-solid fa-angle-right"></i> About</a>
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Services</a>
+            <a href="./enquiry.html"><i class="fa-solid fa-angle-right"></i> Enquiry</a>
+            <a href="./contact.html"><i class="fa-solid fa-angle-right"></i> Contact</a>
 
-            <p>info@campusconnect.org.za</p>
+        </div>
 
-            <p>Rosebank College, Nelson Mandela Bay</p>
+        <div class="footer-col">
+
+            <h4>Services</h4>
+
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Student Support</a>
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Academic Support</a>
+            <a href="../index.html"><i class="fa-solid fa-angle-right"></i> Announcements</a>
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Resources</a>
+            <a href="./enquiry.html#track"><i class="fa-solid fa-angle-right"></i> Track Issues</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Contact Us</h4>
+
+            <p><i class="fa-solid fa-envelope"></i> info@campusconnectnmb.co.za</p>
+            <p><i class="fa-solid fa-phone"></i> +27 41 123 4567</p>
+            <p><i class="fa-solid fa-location-dot"></i> Rosebank College, Nelson Mandela Bay</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <span>&copy; 2026 CampusConnect Foundation. All rights reserved.</span>
+
+            <span class="footer-legal">
+                <a href="./privacy.html">Privacy Policy</a>
+                <a href="./terms.html">Terms &amp; Conditions</a>
+            </span>
 
         </div>
 
@@ -329,18 +291,20 @@
 
 </footer>
 
-<section class="copyright">
+<script>
 
-    <p>
+    const menuToggle = document.getElementById('menuToggle');
+    const siteNav = document.getElementById('siteNav');
 
-        &copy; 2026 CampusConnect Foundation.
-        All Rights Reserved.
+    menuToggle.addEventListener('click', () => {
+        const isOpen = siteNav.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.innerHTML = isOpen
+            ? '<i class="fa-solid fa-xmark"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
+    });
 
-    </p>
-
-</section>
-
-<script src="js/script.js"></script>
+</script>
 
 </body>
 </html>
