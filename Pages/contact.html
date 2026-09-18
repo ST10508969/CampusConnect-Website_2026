@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>CampusConnect Foundation | Contact Us</title>
+    <title>Contact Us | CampusConnect Foundation</title>
 
-    <!-- Google Font -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <!-- CSS -->
 
     <link rel="stylesheet" href="../css/style.css">
 
@@ -36,7 +27,7 @@
 
         <div class="top-left">
 
-            <span><i class="fa-solid fa-envelope"></i> info@campusconnect.org.za</span>
+            <span><i class="fa-solid fa-envelope"></i> info@campusconnectnmb.co.za</span>
 
             <span><i class="fa-solid fa-phone"></i> +27 41 123 4567</span>
 
@@ -46,11 +37,15 @@
 
         <div class="top-right">
 
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <span>Follow Us</span>
 
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
 
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+
+            <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
 
         </div>
 
@@ -64,94 +59,90 @@
 
     <div class="container">
 
-        <div class="logo">
+        <a href="../index.html" class="logo">
 
-            <img src="images/logo.png" alt="CampusConnect Logo">
+            <span class="logo-icon"><i class="fa-solid fa-comments"></i></span>
 
-        </div>
+            <span class="logo-text">
+                <span class="logo-name">CAMPUS<span>CONNECT</span></span>
+                <span class="logo-sub">FOUNDATION</span>
+                <span class="logo-tagline">Connecting Students. Empowering Success.</span>
+            </span>
 
-        <nav>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav id="siteNav">
 
             <a href="../index.html">Home</a>
 
-            <a href="about.html">About</a>
+            <a href="./about.html">About Us</a>
 
-            <a href="services.html">Services</a>
+            <a href="./services.html">Services</a>
 
-            <a href="enquiry.html">Enquiry</a>
+            <a href="./enquiry.html">Enquiry</a>
 
-            <a href="contact.html" class="active">Contact</a>
+            <a href="./contact.html" class="active">Contact Us</a>
 
         </nav>
+
+        <a href="./enquiry.html" class="nav-btn">
+
+            Get Started
+
+        </a>
 
     </div>
 
 </header>
 
-<!--================ PAGE BANNER ================-->
+<!--================ PAGE HERO ================-->
 
-<section class="page-banner">
+<section class="page-hero">
 
     <div class="container">
+
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size:0.6rem;"></i> <span>Contact</span>
+        </div>
 
         <h1>Contact Us</h1>
 
-        <p>
-
-            We'd love to hear from you. Get in touch with the
-            CampusConnect Foundation team.
-
-        </p>
-
     </div>
 
 </section>
 
-<!--================ CONTACT INFORMATION ================-->
+<!--================ CONTACT INFO ROW ================-->
 
-<section class="contact-info">
+<section class="form-section" style="padding-bottom: 0;">
 
     <div class="container">
 
-        <div class="contact-card">
+        <div class="info-row-3">
 
-            <i class="fa-solid fa-user-graduate"></i>
+            <div class="info-card-alt">
+                <div class="icon-circle"><i class="fa-solid fa-people-group"></i></div>
+                <h3>RCL Contacts</h3>
+                <p>Get in touch with your Representative Council of Learners.</p>
+                <a href="mailto:rcl@campusconnectnmb.co.za" class="outline-btn-sm">View Contacts</a>
+            </div>
 
-            <h2>RCL Contact</h2>
+            <div class="info-card-alt">
+                <div class="icon-circle"><i class="fa-solid fa-building-columns"></i></div>
+                <h3>Campus Management</h3>
+                <p>Contact campus management and administration.</p>
+                <a href="mailto:info@campusconnectnmb.co.za" class="outline-btn-sm">View Contacts</a>
+            </div>
 
-            <p><strong>Name:</strong> Student Representative Council</p>
-
-            <p><strong>Phone:</strong> +27 41 123 4500</p>
-
-            <p><strong>Email:</strong> rcl@campusconnect.org.za</p>
-
-        </div>
-
-        <div class="contact-card">
-
-            <i class="fa-solid fa-building"></i>
-
-            <h2>Campus Management</h2>
-
-            <p><strong>Office:</strong> Student Affairs</p>
-
-            <p><strong>Phone:</strong> +27 41 123 4567</p>
-
-            <p><strong>Email:</strong> management@campusconnect.org.za</p>
-
-        </div>
-
-        <div class="contact-card">
-
-            <i class="fa-solid fa-location-dot"></i>
-
-            <h2>Campus Address</h2>
-
-            <p>Rosebank College</p>
-
-            <p>Nelson Mandela Bay Campus</p>
-
-            <p>South Africa</p>
+            <div class="info-card-alt">
+                <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                <h3>Location</h3>
+                <p>Rosebank College, Nelson Mandela Bay</p>
+                <a href="#map" class="outline-btn-sm">View on Map</a>
+            </div>
 
         </div>
 
@@ -159,68 +150,74 @@
 
 </section>
 
-<!--================ CONTACT FORM ================-->
+<!--================ MESSAGE FORM + SIDEBAR ================-->
 
-<section class="contact-form">
-
-    <div class="container">
-
-        <h2>Send Us a Message</h2>
-
-        <form action="#" method="post">
-            
-            <label for="fullname">Full Name</label><br>
-            <input type="text" placeholder="Full Name" required>
-            <br />
-
-            <label for="email">Email Address</label><br>
-            <input type="email" placeholder="Email Address" required>
-            <br />
-
-            <label for="subject">Subject</label><br>
-            <input type="text" placeholder="Subject" required>
-            <br />
-
-            <textarea rows="6" placeholder="Write your message here..." required></textarea><br>
-            <br />
-            <button type="submit" class="primary-btn"><br>
-             Send Message
-            </button><br />
-
-        </form>
-
-    </div>
-
-</section>
-
-<!--================ OFFICE HOURS ================-->
-
-<section class="office-hours">
+<section class="form-section">
 
     <div class="container">
 
-        <h2>Office Hours</h2>
+        <div class="form-layout">
 
-        <p><strong>Monday - Friday:</strong> 08:00 AM - 05:00 PM</p>
+            <div class="form-card">
 
-        <p><strong>Saturday:</strong> 08:00 AM - 12:00 PM</p>
+                <h3>Send us a Message</h3>
 
-        <p><strong>Sunday:</strong> Closed</p>
+                <form class="form-grid single" onsubmit="return false;">
 
-    </div>
+                    <div class="form-group">
+                        <label for="fullName">Your Name <span class="req">*</span></label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                    </div>
 
-</section>
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="req">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
 
-<!--================ GOOGLE MAP PLACEHOLDER ================-->
+                    <div class="form-group">
+                        <label for="subject">Subject <span class="req">*</span></label>
+                        <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
+                    </div>
 
-<section class="map">
+                    <div class="form-group">
+                        <label for="message">Message <span class="req">*</span></label>
+                        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                    </div>
 
-    <div class="container">
+                    <div class="form-group">
+                        <button type="submit" class="form-submit">Send Message</button>
+                    </div>
 
-        <h2>Find Us</h2>
+                </form>
 
-        
-        <!-- Replace this image with an embedded Google Map if required -->
+            </div>
+
+            <div>
+
+                <div class="info-card">
+
+                    <h3>Office Hours</h3>
+
+                    <ul class="hours-list">
+                        <li><span>Monday &ndash; Friday</span> <span>08:00 &ndash; 16:30</span></li>
+                        <li><span>Saturday</span> <span>Closed</span></li>
+                        <li><span>Sunday</span> <span>Closed</span></li>
+                    </ul>
+
+                </div>
+
+                <div class="map-frame" id="map">
+                    <iframe
+                        src="https://www.google.com/maps?q=Rosebank+College+Port+Elizabeth&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="CampusConnect Foundation location">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
@@ -230,46 +227,68 @@
 
 <footer>
 
-    <div class="container footer-container">
+    <div class="container footer-grid">
 
-        <div class="footer-box">
+        <div class="footer-col footer-brand">
 
-            <img src="images/logo.png" alt="CampusConnect Logo">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-comments"></i></span>
+                <span class="logo-text">
+                    <span class="logo-name">CAMPUS<span>CONNECT</span></span>
+                    <span class="logo-sub">FOUNDATION</span>
+                </span>
+            </a>
 
-            <p>
-
-                Connecting students with campus support
-                through effective communication.
-
-            </p>
-
-        </div>
-
-        <div class="footer-box">
-
-            <h3>Quick Links</h3>
-
-            <a href="../index.html">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="services.html">Services</a>
-
-            <a href="enquiry.html">Enquiry</a>
-
-            <a href="contact.html">Contact</a>
+            <p>Improving communication between students and campus management.</p>
 
         </div>
 
-        <div class="footer-box">
+        <div class="footer-col">
 
-            <h3>Contact Details</h3>
+            <h4>Quick Links</h4>
 
-            <p>+27 41 123 4567</p>
+            <a href="../index.html"><i class="fa-solid fa-angle-right"></i> Home</a>
+            <a href="./about.html"><i class="fa-solid fa-angle-right"></i> About</a>
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Services</a>
+            <a href="./enquiry.html"><i class="fa-solid fa-angle-right"></i> Enquiry</a>
+            <a href="./contact.html"><i class="fa-solid fa-angle-right"></i> Contact</a>
 
-            <p>info@campusconnect.org.za</p>
+        </div>
 
-            <p>Rosebank College, Nelson Mandela Bay</p>
+        <div class="footer-col">
+
+            <h4>Services</h4>
+
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Student Support</a>
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Academic Support</a>
+            <a href="../index.html"><i class="fa-solid fa-angle-right"></i> Announcements</a>
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Resources</a>
+            <a href="./enquiry.html#track"><i class="fa-solid fa-angle-right"></i> Track Issues</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Contact Us</h4>
+
+            <p><i class="fa-solid fa-envelope"></i> info@campusconnectnmb.co.za</p>
+            <p><i class="fa-solid fa-phone"></i> +27 41 123 4567</p>
+            <p><i class="fa-solid fa-location-dot"></i> Rosebank College, Nelson Mandela Bay</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <span>&copy; 2026 CampusConnect Foundation. All rights reserved.</span>
+
+            <span class="footer-legal">
+                <a href="./privacy.html">Privacy Policy</a>
+                <a href="./terms.html">Terms &amp; Conditions</a>
+            </span>
 
         </div>
 
@@ -277,19 +296,20 @@
 
 </footer>
 
-<!--================ COPYRIGHT ================-->
+<script>
 
-<section class="copyright">
+    const menuToggle = document.getElementById('menuToggle');
+    const siteNav = document.getElementById('siteNav');
 
-    <p>
+    menuToggle.addEventListener('click', () => {
+        const isOpen = siteNav.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.innerHTML = isOpen
+            ? '<i class="fa-solid fa-xmark"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
+    });
 
-        &copy; 2026 CampusConnect Foundation. All Rights Reserved.
-
-    </p>
-
-</section>
-
-<script src="js/script.js"></script>
+</script>
 
 </body>
 </html>
