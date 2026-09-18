@@ -3,13 +3,16 @@
 
 ## Project Overview
 
+
 CampusConnect Foundation is a student support website developed to improve communication between students, lecturers, the Representative Council of Learners (RCL), and campus management. The website provides an easy-to-use platform where students can submit complaints, suggestions, and concerns, track their reported issues, access student resources, and find important contact information.
 
 ---
 
+
 ## Purpose
 
 The purpose of this website is to:
+
 
 - Improve communication between students and campus management.
 - Provide a platform for reporting complaints, suggestions, and concerns.
@@ -19,6 +22,7 @@ The purpose of this website is to:
 
 ---
 ## Website Pages
+
 
 ### 1. Home (index.html)
 
@@ -50,6 +54,7 @@ This page explains the services offered by CampusConnect Foundation:
 
 ### 4. Enquiry (enquiry.html)
 
+
 Students can:
 
 - Submit complaints
@@ -60,6 +65,7 @@ Students can:
 
 ---
 ### 5. Contact (contact.html)
+
 
 This page includes:
 
@@ -72,6 +78,7 @@ This page includes:
 ---
 
 ## Technologies Used
+
 
 - HTML5
 - CSS3
@@ -155,6 +162,7 @@ The following features can be added in future versions:
 
 ---
 ## Author
+
 
 **Name:** Sinoxolo Tyeke
 
