@@ -54,6 +54,7 @@ This page explains the services offered by CampusConnect Foundation:
 
 ### 4. Enquiry (enquiry.html)
 
+
 Students can:
 
 - Submit complaints
