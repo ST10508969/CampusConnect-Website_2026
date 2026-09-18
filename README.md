@@ -86,37 +86,37 @@ This page includes:
 - Google Fonts (Poppins)
 - Font Awesome Icons
 
----
-## Project Folder Structure
 
-```text
-CampusConnect/
-│
+  # CampusConnect Foundation — Part 2: CSS (style.css)
+
+
+## What it covers
+- **Design tokens** — CSS custom properties in `:root` for the color palette (purple, teal, amber, green, pink, blue), border radii, shadows and container width
+- **Top bar & header** — contact strip, sticky nav with active-link underline, mobile hamburger toggle
+- **Home page** — hero, About preview, "Our Services" 5-card grid, Latest Announcements + issue CTA
+- **Inner-page shared styles** — page hero banner, breadcrumb, section headings
+- **About page** — story layout, Mission/Vision cards, Who We Serve grid, Meet Our Team cards
+- **Services page** — 6-card grid with color-coded icons, dark CTA banner
+- **Contact page** — 3-card info row, message form, office hours list, embedded map
+- **Enquiry page** — submit-issue form, track-issue card, FAQ list
+- **Footer** — 4-column layout, legal bar
+- **Responsive breakpoints** — 1100px, 991px, 860px, 720px and 480px for tablet/mobile layout changes
+
+## File location
+```
+project-root/
 ├── index.html
-│
-├── Pages/
-│   ├── about.html
-│   ├── services.html
-│   ├── enquiry.html
-│   └── contact.html
-│
 ├── css/
 │   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   ├── logo.png
-│   ├── students.png
-│   ├── about.jpg
-│   ├── team1.jpg
-│   ├── team2.jpg
-│   ├── team3.jpg
-│   └── map.jpg
-│
-└── README.md
+└── Pages/
+    ├── about.html
+    ├── services.html
+    ├── enquiry.html
+    └── contact.html
 ```
+
+---
+
 ## Website Hierarchy
 
 ```text
