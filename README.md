@@ -3,6 +3,7 @@
 
 ## Project Overview
 
+
 CampusConnect Foundation is a student support website developed to improve communication between students, lecturers, the Representative Council of Learners (RCL), and campus management. The website provides an easy-to-use platform where students can submit complaints, suggestions, and concerns, track their reported issues, access student resources, and find important contact information.
 
 ---
