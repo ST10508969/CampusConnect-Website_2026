@@ -87,6 +87,196 @@ This page includes:
 - Font Awesome Icons
 
 
+## Part 1 Correction
+
+# References
+
+	Xneelo (2025) Domain and web hosting pricing South Africa.
+Available at: xneelo.co.za [Accessed 5 August 2026].
+	Rosebank College (2025) Student handbook and SRC guidelines. Port Elizabeth: Rosebank College.
+	W3Schools (2025) HTML, CSS, JavaScript and MySQL tutorial.
+Available at: w3schols.com
+[Accessed 5 August 2026}
+	OpenAI (2025) ChatGPT. [Online]
+Available at: http://chat.openai.com
+[Accessed at 5 August 2026]
+
+
+# CampusConnect Foundation — Project README
+
+## Part 1: Wireframe
+
+Low-fidelity wireframe for all 5 pages of the site, showing the layout structure before visual design was applied.
+
+### 1. Home Page (`index.html`)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  info@campusconnectnmb.co.za  •  phone  •  address    Social  │
+├──────────────────────────────────────────────────────────────┤
+│  [Logo] CampusConnect     Home About Services Enquiry Contact │
+│                                                   [Get Started]│
+├──────────────────────────────────────────────────────────────┤
+│  Welcome to CampusConnect Foundation                          │
+│  Your Voice.                                     ┌──────────┐ │
+│  Your Campus.                                    │  [IMAGE] │ │
+│  Our Mission.                                    └──────────┘ │
+│  paragraph...                                                 │
+│  [ Learn More ]  [ Submit Enquiry ]                            │
+├──────────────────────────────────────────────────────────────┤
+│  ┌──────────┐   About CampusConnect Foundation                │
+│  │  [IMAGE] │   paragraph...                                  │
+│  └──────────┘   [ Read More ]                                 │
+├──────────────────────────────────────────────────────────────┤
+│  Our Services                                                 │
+│  [Student   [Academic   [Campus        [Contact   [Track      │
+│   Support]   Support]    Announcements] Directory]  Issues]   │
+├──────────────────────────────────────────────────────────────┤
+│  Latest Announcements                 │  Need to Submit an    │
+│  • Important Notice ........ 12 May   │  Issue?               │
+│  • Campus Maintenance ...... 10 May   │  We are here to       │
+│  • RCL Meeting .............. 08 May  │  listen and help.     │
+│                                        │  [ Submit Enquiry ]   │
+├──────────────────────────────────────────────────────────────┤
+│  [Logo]      Quick Links   Services      Contact Us            │
+│  tagline     Home          Student Sup.  email                 │
+│              About         Academic Sup. phone                 │
+│              Services      Announcements address               │
+│              Enquiry       Resources                           │
+│              Contact       Track Issues                        │
+├──────────────────────────────────────────────────────────────┤
+│  © 2026 CampusConnect Foundation.        Privacy | Terms       │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### 2. About Page (`Pages/about.html`)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header (same as Home, "About" active)               │
+├──────────────────────────────────────────────────────────────┤
+│                          About Us                              │
+│                        Home / About                            │
+├──────────────────────────────────────────────────────────────┤
+│  Our Story                              ┌──────────────────┐   │
+│  How CampusConnect began                │      [IMAGE]     │   │
+│  paragraph / paragraph / paragraph      └──────────────────┘   │
+├──────────────────────────────────────────────────────────────┤
+│  [ Our Mission ]            [ Our Vision ]                     │
+│    icon + text                icon + text                      │
+├──────────────────────────────────────────────────────────────┤
+│  Who We Serve                                                  │
+│  [Students] [RCL's] [Lecturers] [Campus Management]            │
+├──────────────────────────────────────────────────────────────┤
+│  Meet Our Team                                                 │
+│  [ (o) Sinoxolo Tyeke ]  [ (o) RCL Rep ]  [ (o) Campus Coord ] │
+│      Founder                Student Leader     Coordinator     │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### 3. Services Page (`Pages/services.html`)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header ("Services" active)                          │
+├──────────────────────────────────────────────────────────────┤
+│                        Our Services                            │
+│                      Home / Services                           │
+├──────────────────────────────────────────────────────────────┤
+│  [Student    [Academic    [Campus                              │
+│   Support]    Support]     Announcements]                      │
+│                                                                  │
+│  [Contact    [Resources    [Issue                               │
+│   Directory]  & FAQs]       Tracking]                           │
+├──────────────────────────────────────────────────────────────┤
+│  We are here to support you every step of the way.             │
+│                                        [ Submit an Enquiry ]    │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### 4. Enquiry Page (`Pages/enquiry.html`)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header ("Enquiry" active)                            │
+├──────────────────────────────────────────────────────────────┤
+│                     Submit an Enquiry                          │
+│                      Home / Enquiry                             │
+├──────────────────────────────────────────────────────────────┤
+│  Submit an Issue                       │  Track Your Issue     │
+│  Full Name        Student Number       │  [Reference Number]   │
+│  Email Address     Phone Number        │  [ Track Issue ]      │
+│  Category (dropdown)                    │                       │
+│  Subject                                │  FAQs                 │
+│  Description                            │  • How do I submit?  │
+│  [ Submit Issue ]                       │  • How long...?      │
+│                                          │  • How do I track?   │
+│                                          │  • What issues...?   │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### 5. Contact Page (`Pages/contact.html`)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header ("Contact Us" active)                        │
+├──────────────────────────────────────────────────────────────┤
+│                         Contact Us                              │
+│                       Home / Contact                            │
+├──────────────────────────────────────────────────────────────┤
+│  [RCL Contacts]    [Campus Management]    [Location]            │
+│  [View Contacts]   [View Contacts]        [View on Map]         │
+├──────────────────────────────────────────────────────────────┤
+│  Send us a Message                    │  Office Hours           │
+│  Your Name                             │  Mon-Fri  08:00-16:30  │
+│  Email Address                         │  Saturday  Closed      │
+│  Subject                               │  Sunday    Closed      │
+│  Message                               │  ┌──────────────────┐ │
+│  [ Send Message ]                      │  │   Map / Location  │ │
+│                                         │  └──────────────────┘ │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Part 2: CSS (style.css)
+
+The stylesheet used across all pages of the site (`index.html` and everything under `Pages/`). Save it at `css/style.css` in your project — every page links to it with a relative path.
+
+### What it covers
+- **Design tokens** — CSS custom properties in `:root` for the color palette (purple, teal, amber, green, pink, blue), border radii, shadows and container width
+- **Top bar & header** — contact strip, sticky nav with active-link underline, mobile hamburger toggle
+- **Home page** — hero, About preview, "Our Services" 5-card grid, Latest Announcements + issue CTA
+- **Inner-page shared styles** — page hero banner, breadcrumb, section headings
+- **About page** — story layout, Mission/Vision cards, Who We Serve grid, Meet Our Team cards
+- **Services page** — 6-card grid with color-coded icons, dark CTA banner
+- **Contact page** — 3-card info row, message form, office hours list, embedded map
+- **Enquiry page** — submit-issue form, track-issue card, FAQ list
+- **Footer** — 4-column layout, legal bar
+- **Responsive breakpoints** — 1100px, 991px, 860px, 720px and 480px for tablet/mobile layout changes
+
+### File location
+```
+project-root/
+├── index.html
+├── css/
+│   └── style.css
+└── Pages/
+    ├── about.html
+    ├── services.html
+    ├── enquiry.html
+    └── contact.html
+```
+
+
   # CampusConnect Foundation — Part 2: CSS (style.css)
 
 
