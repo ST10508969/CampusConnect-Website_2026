@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CampusConnect Foundation | About Us</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>About Us | CampusConnect Foundation</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <!-- CSS -->
 
     <link rel="stylesheet" href="../css/style.css">
 
@@ -31,7 +27,7 @@
 
         <div class="top-left">
 
-            <span><i class="fa-solid fa-envelope"></i> info@campusconnect.org.za</span>
+            <span><i class="fa-solid fa-envelope"></i> info@campusconnectnmb.co.za</span>
 
             <span><i class="fa-solid fa-phone"></i> +27 41 123 4567</span>
 
@@ -41,11 +37,15 @@
 
         <div class="top-right">
 
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <span>Follow Us</span>
 
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
 
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+
+            <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
 
         </div>
 
@@ -59,45 +59,57 @@
 
     <div class="container">
 
-        <div class="logo">
+        <a href="../index.html" class="logo">
 
-            <img src="images/logo.png" alt="CampusConnect Logo">
+            <span class="logo-icon"><i class="fa-solid fa-comments"></i></span>
 
-        </div>
+            <span class="logo-text">
+                <span class="logo-name">CAMPUS<span>CONNECT</span></span>
+                <span class="logo-sub">FOUNDATION</span>
+                <span class="logo-tagline">Connecting Students. Empowering Success.</span>
+            </span>
 
-        <nav>
+        </a>
 
-           <a href="../index.html">Home</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
 
-            <a href="about.html">About</a>
+        <nav id="siteNav">
 
-            <a href="services.html">Services</a>
+            <a href="../index.html">Home</a>
 
-            <a href="enquiry.html" class="active">Enquiry</a>
+            <a href="./about.html" class="active">About Us</a>
 
-            <a href="contact.html">Contact</a>
+            <a href="./services.html">Services</a>
 
+            <a href="./enquiry.html">Enquiry</a>
+
+            <a href="./contact.html">Contact Us</a>
 
         </nav>
+
+        <a href="./enquiry.html" class="nav-btn">
+
+            Get Started
+
+        </a>
 
     </div>
 
 </header>
 
-<!--================ PAGE BANNER ================-->
+<!--================ PAGE HERO ================-->
 
-<section class="page-banner">
+<section class="page-hero">
 
     <div class="container">
 
-        <h1>About CampusConnect Foundation</h1>
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a> <i class="fa-solid fa-chevron-right" style="font-size:0.6rem;"></i> <span>About</span>
+        </div>
 
-        <p>
-
-            Empowering students through communication,
-            support and collaboration.
-
-        </p>
+        <h1>About Us</h1>
 
     </div>
 
@@ -105,145 +117,127 @@
 
 <!--================ OUR STORY ================-->
 
-<section class="about-section">
+<section class="story-section">
 
     <div class="container">
 
-        <div class="about-image">
+        <div class="story-text">
 
-            <img src="images/about.jpg" alt="About CampusConnect">
+            <span class="eyebrow">Our Story</span>
+
+            <h2>How CampusConnect began</h2>
+
+            <p>
+                CampusConnect Foundation was founded in 2026 by Sinoxolo
+                Tyeke, a student at Rosebank College's Nelson Mandela Bay
+                campus, after seeing how difficult it was for students to
+                get their concerns heard.
+            </p>
+
+            <p>
+                With only a handful of RCL representatives covering an
+                entire faculty, requests and complaints were often delayed
+                or missed, and many students felt uneasy approaching
+                lecturers or campus management directly. Most communication
+                happened through scattered WhatsApp groups and emails.
+            </p>
+
+            <p>
+                Seeing this gap, Sino started CampusConnect as a student-led
+                initiative to build one central online platform where
+                students could submit concerns, suggestions and requests
+                directly to the RCL, lecturers and campus management.
+            </p>
 
         </div>
 
-        <div class="about-content">
-
-            <h2>Our Story</h2>
-
-            <p>
-
-                CampusConnect Foundation was established in 2026 by
-                Sinoxolo Tyeke after identifying communication challenges
-                between students, lecturers and campus management.
-                The organisation aims to provide a single online platform
-                where students can submit concerns, receive updates,
-                access support services and stay informed.
-
-            </p>
-
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Students working together on campus">
         </div>
 
     </div>
 
 </section>
 
-<!--================ MISSION & VISION ================-->
+<!--================ MISSION / VISION ================-->
 
-<section class="mission-vision">
-
-    <div class="container">
-
-        <div class="mission">
-
-            <i class="fa-solid fa-bullseye"></i>
-
-            <h2>Our Mission</h2>
-
-            <p>
-
-                To assist students by providing an easy online platform
-                where they can share concerns, access information,
-                receive support and connect with their institution.
-
-            </p>
-
-        </div>
-
-        <div class="vision">
-
-            <i class="fa-solid fa-eye"></i>
-
-            <h2>Our Vision</h2>
-
-            <p>
-
-                To become South Africa's leading student support
-                organisation through accessible, transparent
-                and innovative communication solutions.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!--================ OUR TEAM ================-->
-
-<section class="team">
+<section class="values-section" style="padding-top: 0;">
 
     <div class="container">
 
-        <h2>Meet Our Team</h2>
+        <div class="values-grid two-col">
 
-        <div class="team-container">
-
-            <div class="team-card">
-
-                <img src="../Assets/Founder.jpeg" alt="Founder">
-
-                <h3>Sinoxolo Tyeke</h3>
-
-                <p>Founder</p>
-
+            <div class="value-card">
+                <div class="value-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                <h3>Our Mission</h3>
+                <p>To give students an easy, safe online space to share problems, get information, get help and connect with their campus quickly.</p>
             </div>
 
-            <div class="team-card">
-
-                <img src="" alt="RCL Representative">
-
-                <h3>RCL Representative</h3>
-
-                <p>Student Representative</p>
-
-            </div>
-
-            <div class="team-card">
-
-                <img src="images/team3.jpg" alt="Campus Coordinator">
-
-                <h3>Campus Coordinator</h3>
-
-                <p>Student Support</p>
-
+            <div class="value-card">
+                <div class="value-icon"><i class="fa-regular fa-lightbulb"></i></div>
+                <h3>Our Vision</h3>
+                <p>To become South Africa's leading student support organisation by empowering students through accessible, transparent and innovative communication.</p>
             </div>
 
         </div>
 
-    </div>
+        <!--================ WHO WE SERVE ================-->
 
-</section>
+        <h2 class="team-heading">Who We Serve</h2>
 
-<!--================ CALL TO ACTION ================-->
+        <div class="values-grid">
 
-<section class="cta">
+            <div class="value-card">
+                <div class="value-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                <h3>Students</h3>
+                <p>The heart of CampusConnect — submitting concerns and getting support.</p>
+            </div>
 
-    <div class="container">
+            <div class="value-card">
+                <div class="value-icon"><i class="fa-solid fa-people-group"></i></div>
+                <h3>RCL's</h3>
+                <p>A structured, organised system to manage student questions.</p>
+            </div>
 
-        <h2>Join Us In Improving Student Communication</h2>
+            <div class="value-card">
+                <div class="value-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <h3>Lecturers</h3>
+                <p>A clear channel for academic issues raised by students.</p>
+            </div>
 
-        <p>
+            <div class="value-card">
+                <div class="value-icon"><i class="fa-solid fa-building-columns"></i></div>
+                <h3>Campus Management</h3>
+                <p>Visibility into campus-wide issues and student feedback.</p>
+            </div>
 
-            Together we can create a better campus experience
-            for every student.
+        </div>
 
-        </p>
+        <!--================ MEET OUR TEAM ================-->
 
-        <a href="enquiry.html" class="primary-btn">
+        <h2 class="team-heading">Meet Our Team</h2>
 
-            Submit an Enquiry
+        <div class="team-grid">
 
-        </a>
+            <div class="team-card">
+                <div class="team-avatar"><i class="fa-solid fa-user"></i></div>
+                <h4>Sinoxolo Tyeke</h4>
+                <span>Founder</span>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar"><i class="fa-solid fa-user"></i></div>
+                <h4>RCL Representative</h4>
+                <span>Student Leader</span>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar"><i class="fa-solid fa-user"></i></div>
+                <h4>Campus Coordinator</h4>
+                <span>Coordinator</span>
+            </div>
+
+        </div>
 
     </div>
 
@@ -253,43 +247,76 @@
 
 <footer>
 
-    <div class="container footer-container">
+    <div class="container footer-grid">
 
-        <div>
+        <div class="footer-col footer-brand">
 
-            <img src="images/logo.png" alt="Logo">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-comments"></i></span>
+                <span class="logo-text">
+                    <span class="logo-name">CAMPUS<span>CONNECT</span></span>
+                    <span class="logo-sub">FOUNDATION</span>
+                </span>
+            </a>
 
-            <p>
-
-                Empowering students through better communication.
-
-            </p>
-
-        </div>
-
-        <div>
-
-            <h3>Quick Links</h3>
-
-            <a href="../index.html">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="services.html">Services</a>
-
-            <a href="enquiry.html">Enquiry</a>
-
-            <a href="contact.html">Contact</a>
+            <p>Connecting Students.<br>Empowering Success.</p>
 
         </div>
 
-        <div>
+        <div class="footer-col">
 
-            <h3>Contact</h3>
+            <h4>Quick Links</h4>
 
-            <p>+27 41 123 4567</p>
+            <a href="../index.html"><i class="fa-solid fa-angle-right"></i> Home</a>
+            <a href="./about.html"><i class="fa-solid fa-angle-right"></i> About Us</a>
+            <a href="./services.html"><i class="fa-solid fa-angle-right"></i> Services</a>
+            <a href="./enquiry.html"><i class="fa-solid fa-angle-right"></i> Enquiry</a>
+            <a href="./contact.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a>
 
-            <p>info@campusconnect.org.za</p>
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Contact Us</h4>
+
+            <p><i class="fa-solid fa-location-dot"></i> Rosebank College, Nelson Mandela Bay, 6001</p>
+            <p><i class="fa-solid fa-phone"></i> +27 41 123 4567</p>
+            <p><i class="fa-solid fa-envelope"></i> info@campusconnectnmb.co.za</p>
+
+        </div>
+
+        <div class="footer-col footer-newsletter">
+
+            <h4>Newsletter</h4>
+
+            <p>Stay updated with the latest news and announcements.</p>
+
+            <form class="newsletter-form" onsubmit="return false;">
+                <input type="email" placeholder="Enter your email" aria-label="Email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <span>&copy; 2026 CampusConnect Foundation. All rights reserved.</span>
+
+            <span class="footer-legal">
+                <a href="./privacy.html">Privacy Policy</a>
+                <a href="./terms.html">Terms &amp; Conditions</a>
+            </span>
 
         </div>
 
@@ -297,18 +324,20 @@
 
 </footer>
 
-<section class="copyright">
+<script>
 
-    <p>
+    const menuToggle = document.getElementById('menuToggle');
+    const siteNav = document.getElementById('siteNav');
 
-        &copy; 2026 CampusConnect Foundation.
-        All Rights Reserved.
+    menuToggle.addEventListener('click', () => {
+        const isOpen = siteNav.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.innerHTML = isOpen
+            ? '<i class="fa-solid fa-xmark"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
+    });
 
-    </p>
-
-</section>
-
-<script src="js/script.js"></script>
+</script>
 
 </body>
 </html>
