@@ -22,6 +22,7 @@ The purpose of this website is to:
 ---
 ## Website Pages
 
+
 ### 1. Home (index.html)
 
 The homepage introduces CampusConnect Foundation and includes:
