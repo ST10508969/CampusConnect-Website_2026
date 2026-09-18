@@ -7,6 +7,7 @@ CampusConnect Foundation is a student support website developed to improve commu
 
 ---
 
+
 ## Purpose
 
 The purpose of this website is to:
