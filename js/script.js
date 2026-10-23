@@ -97,5 +97,75 @@ function showStatus(form, type, message) {
     status.className = 'form-status ' + type; // "success" or "error"
     status.textContent = message;
 }
+/* ---------- 4. AJAX Submission ---------- */
+ 
+function setupForm(formId, successText) {
+    const form = document.getElementById(formId);
+    if (!form) return; // this page doesn't have that form
+ 
+    const fields = form.querySelectorAll('input, textarea, select');
+ 
+    // Live feedback: validate when leaving a field, clear while typing
+    fields.forEach((field) => {
+        field.addEventListener('blur', () => {
+            const message = validateField(field);
+            message ? showError(field, message) : clearError(field);
+        });
+        field.addEventListener('input', () => {
+            if (field.classList.contains('invalid') && !validateField(field)) {
+                clearError(field);
+            }
+        });
+    });
+    form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+ 
+        // Validate every field before sending
+        let firstInvalid = null;
+        fields.forEach((field) => {
+            const message = validateField(field);
+            if (message) {
+                showError(field, message);
+                if (!firstInvalid) firstInvalid = field;
+            } else {
+                clearError(field);
+            }
+        });
+ 
+        if (firstInvalid) {
+            showStatus(form, 'error', 'Please fix the highlighted fields and try again.');
+            firstInvalid.focus();
+            return;
+        }
+        // Send the data asynchronously
+        const button = form.querySelector('button[type="submit"]');
+        const originalText = button.textContent;
+        button.disabled = true;
+        button.textContent = 'Sending...';
+ 
+        try {
+            const response = await fetch(API_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(Object.fromEntries(new FormData(form)))
+            });
+            if (!response.ok) throw new Error('Server responded with ' + response.status);
+ 
+            const result = await response.json();
+            showStatus(form, 'success', successText + ' Your reference number is CC-' + result.id + '.');
+            form.reset();
+        } catch (error) {
+            console.error('Form submission failed:', error);
+            showStatus(form, 'error', 'Something went wrong while sending. Please check your connection and try again.');
+        } finally {
+            button.disabled = false;
+            button.textContent = originalText;
+        }
+    });
+}
+ 
+setupForm('enquiryForm', 'Thank you, your enquiry has been submitted.');
+setupForm('contactForm', 'Thank you, your message has been sent.');
+ 
 
  
