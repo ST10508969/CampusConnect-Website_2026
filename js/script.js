@@ -7,4 +7,16 @@
    ===================================================== */
 
    /* ---------- 1. MENU ---------- */
-   con
+   const meunToggle = document.getElementById('menu-toggle');
+   const siteNav = document.getElementById('site-nav');
+
+   if (menuToggle && siteNav){
+    menuToggle.addEventListener('click', () =>{
+        const isOpen = siteNav.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.innerHTML = isOpen
+        ? '<i class="fa-solid fa-xmark"></i>'
+        : '<i class="fa-solid fa-bars"></i>';
+    });
+
+}
