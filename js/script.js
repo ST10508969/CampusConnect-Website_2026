@@ -66,3 +66,36 @@ function validateField(input) {
  
     return '';
 }
+
+/* ---------- 3. Error Handling ---------- */
+ 
+function showError(input, message) {
+    clearError(input);
+    input.classList.add('invalid');
+    input.setAttribute('aria-invalid', 'true');
+ 
+    const error = document.createElement('small');
+    error.className = 'error-msg';
+    error.textContent = message;
+    input.insertAdjacentElement('afterend', error);
+}
+function clearError(input) {
+    input.classList.remove('invalid');
+    input.removeAttribute('aria-invalid');
+    const next = input.nextElementSibling;
+    if (next && next.classList.contains('error-msg')) next.remove();
+}
+ 
+function showStatus(form, type, message) {
+    let status = form.querySelector('.form-status');
+    if (!status) {
+        status = document.createElement('div');
+        status.className = 'form-status';
+        status.setAttribute('role', 'alert');
+        form.prepend(status);
+    }
+    status.className = 'form-status ' + type; // "success" or "error"
+    status.textContent = message;
+}
+
+ 
