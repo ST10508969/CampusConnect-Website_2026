@@ -128,7 +128,7 @@
                 <h3>Submit an Issue</h3>
                 <p>All fields marked <span class="req">*</span> are required.</p>
 
-                <form class="form-grid" onsubmit="return false;">
+                <form class="form-grid" id="enquiryForm">
 
                     <div class="form-group">
                         <label for="fullName">Full Name <span class="req">*</span></label>
@@ -291,7 +291,20 @@
 
 </footer>
 
-<script src="../js/script.js"></script>
+<script>
+
+    const menuToggle = document.getElementById('menuToggle');
+    const siteNav = document.getElementById('siteNav');
+
+    menuToggle.addEventListener('click', () => {
+        const isOpen = siteNav.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        menuToggle.innerHTML = isOpen
+            ? '<i class="fa-solid fa-xmark"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
+    });
+
+</script>
 
 </body>
 </html>
