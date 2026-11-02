@@ -155,6 +155,7 @@ CampusConnect-Website_2026
 - Interactive Leaflet map
 - Gallery with lightbox
 - FAQ accordion
+- Dynamic services with live search and sort
 
 
 
