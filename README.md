@@ -22,7 +22,7 @@
 14. References
 
 
-## Project Overview
+##  1. Project Overview
 
 
 
@@ -31,7 +31,7 @@ CampusConnect Foundation is a student support website developed to improve commu
 ---
 
 
-## Purpose
+## 2. Purpose
 
 The purpose of this website is to:
 
@@ -50,15 +50,11 @@ The purpose of this website is to:
 
 The homepage introduces CampusConnect Foundation and includes:
 
-- Welcome message
-- Hero section
+- Welcome message and hero section
+- "How We Help" service cards
 - Latest announcements
-- About preview
-- Services preview
-- Call-to-action
-- Navigation menu
-- Footer
----
+- About preview and "Need Help Now?" panel
+- Navigation menu, footer and newsletter box
 
 ### 3. Services (services.html)
 
