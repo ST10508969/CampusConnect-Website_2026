@@ -17,6 +17,7 @@
 9. Part 3: Enhancing Functionality and SEO
 10. Changelog
 11. Future Improvements
+12. Author
 
 
 ## Project Overview
