@@ -317,6 +317,10 @@ project-root/
 Live website: https://st10508969.github.io/CampusConnect-Website_2026/ 
 GitHub repository: https://github.com/st10508969/CampusConnect-Website_2026
 
+Overview
+
+In Part 3 the CampusConnect Foundation website was upgraded from a static layout to an interactive, searchable and search-engine-friendly site. JavaScript was added for interactivity, forms were given full validation and processing, SEO best practices were applied to every page, and the site was deployed online. All changes made in response to Part 2 feedback are recorded in the Changelog section below.
+
 
 
 
