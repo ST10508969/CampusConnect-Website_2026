@@ -13,6 +13,8 @@
 5. Website Hierarchy
 6. Features
 7. Part 1: Wireframe
+8. Part 2: CSS
+
 
 
 ## Project Overview
