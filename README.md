@@ -11,6 +11,7 @@
 3. Website Pages
 4. Technologies Used
 5. Website Hierarchy
+6. Features
 
 
 ## Project Overview
