@@ -1,6 +1,13 @@
 # CampusConnect-Website_2026
 # CampusConnect Foundation
 
+# Module: WEDE5020 - Web Development (Introduction)| Student: Sinoxolo Tyeke|
+# Institution: Rosebank College NMB
+
+# Table of Contents
+
+
+
 ## Project Overview
 
 
