@@ -301,6 +301,17 @@ What it covers
 - Footer — 4-column layout, legal bar
 - Responsive breakpoints — 1400px, 991px, 720px, 600px, 480px and 380px for large-screen, tablet and mobile layout changes
 
+## 8.1. File Location
+project-root/
+├── index.html
+├── css/
+│   └── style.css
+└── Pages/
+    ├── about.html
+    ├── services.html
+    ├── enquiry.html
+    └── contact.html
+
 
 
 
