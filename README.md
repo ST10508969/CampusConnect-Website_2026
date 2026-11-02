@@ -12,6 +12,7 @@
 4. Technologies Used
 5. Website Hierarchy
 6. Features
+7. Part 1: Wireframe
 
 
 ## Project Overview
