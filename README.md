@@ -203,6 +203,30 @@ Low-fidelity wireframe for all 5 pages of the site, showing the layout structure
 │  © 2026 CampusConnect Foundation.        Privacy | Terms       │
 └──────────────────────────────────────────────────────────────┘
 
+## 7.2. About Page (Pages/about.html)
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header (same as Home, "About" active)               │
+├──────────────────────────────────────────────────────────────┤
+│                          About Us                              │
+│                        Home / About                            │
+├──────────────────────────────────────────────────────────────┤
+│  Our Story                              ┌──────────────────┐   │
+│  How CampusConnect began                │      [IMAGE]     │   │
+│  paragraph / paragraph / paragraph      └──────────────────┘   │
+├──────────────────────────────────────────────────────────────┤
+│  [ Our Mission ]            [ Our Vision ]                     │
+│    icon + text                icon + text                      │
+├──────────────────────────────────────────────────────────────┤
+│  Who We Serve                                                  │
+│  [Students] [RCL's] [Lecturers] [Campus Management]            │
+├──────────────────────────────────────────────────────────────┤
+│  Meet Our Team                                                 │
+│  [ (o) Sinoxolo Tyeke ]  [ (o) RCL Rep ]  [ (o) Campus Coord ] │
+│      Founder                Student Leader     Coordinator     │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+
 
 
 
