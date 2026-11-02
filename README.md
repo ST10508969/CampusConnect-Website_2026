@@ -266,6 +266,27 @@ Low-fidelity wireframe for all 5 pages of the site, showing the layout structure
 │  Footer (same as Home)                                          │
 └──────────────────────────────────────────────────────────────┘
 
+## 7.5. Contact Page (Pages/contact.html)
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header ("Contact Us" active)                        │
+├──────────────────────────────────────────────────────────────┤
+│                         Contact Us                              │
+│                       Home / Contact                            │
+├──────────────────────────────────────────────────────────────┤
+│  [RCL Contacts]    [Campus Management]    [Location]            │
+│  [View Contacts]   [View Contacts]        [View on Map]         │
+├──────────────────────────────────────────────────────────────┤
+│  Send us a Message                    │  Office Hours           │
+│  Your Name                             │  Mon-Fri  08:00-16:30  │
+│  Email Address                         │  Saturday  Closed      │
+│  Subject                               │  Sunday    Closed      │
+│  Message                               │  ┌──────────────────┐ │
+│  [ Send Message ]                      │  │   Map / Location  │ │
+│                                         │  └──────────────────┘ │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+
 
 
 
