@@ -293,7 +293,8 @@ The stylesheet used across all pages of the site (index.html and everything unde
 What it covers
 - Design tokens — CSS custom properties in :root for the colour palette (purple, teal, amber, green, pink, blue), border radii, shadows and container width
 - Top bar & header — contact strip, sticky nav with active-link underline, mobile hamburger toggle
-
+- Home page — hero, About preview, "How We Help" card grid, announcements and help panel
+- Inner-page shared styles — page hero banner, breadcrumb, section headings
 
 
 
