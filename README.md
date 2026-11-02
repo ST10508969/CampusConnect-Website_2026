@@ -79,28 +79,26 @@ This page explains the services offered by CampusConnect Foundation:
 
 ---
 
-### 4. Enquiry (enquiry.html)
+### 4. Enquiry (Pages/enquiry.html)
 
 
 Students can:
 
-- Submit complaints
-- Submit suggestions
-- Report concerns
-- Track submitted issues
-- View FAQs
+- Submit complaints, suggestions and concerns
+- Track submitted issues with a reference number
+- View FAQs in an accordion
 
 ---
-### 5. Contact (contact.html)
+### 5. Contact (Pages/contact.html)
 
 
 This page includes:
 
-- RCL contact details
-- Campus management contact details
-- Contact form
+- RCL and campus manangement contact details
+- Contact form that bulids an email to the organisation
 - Office hours
-- Campus location
+- Interactive campus map
+
 
 ---
 
