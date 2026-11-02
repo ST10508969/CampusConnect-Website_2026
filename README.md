@@ -9,6 +9,8 @@
 1. Project Overview
 2. Purpose
 3. Website Pages
+4. Technologies Used
+
 
 
 ## Project Overview
