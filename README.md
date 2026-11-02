@@ -152,6 +152,8 @@ CampusConnect-Website_2026
 - Student enquiry form with validation and a category-specific response
 - Issue tracking by refernce number
 - Contact form that complies a validated 
+- Interactive Leaflet map
+
 
 
 
