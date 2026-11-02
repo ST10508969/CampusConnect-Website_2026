@@ -365,6 +365,27 @@ On-page SEO
 - Local SEO: JSON-LD Organization structured data with the Gqeberha / Nelson Mandela Bay address.
 - Backlink plan: share the live link on the Rosebank College student groups and the foundation's social media bios, and ask the RCL and campus management to link to the site.
 
+## 9.6. Additional
+
+- robots.txt tells crawlers which pages to index and points to the sitemap.
+- sitemap.xml lists every page of the site.
+- Page speed: preconnect and display=swap for Google Fonts, scripts loaded with defer, lazy-loaded images.
+- Security: HTTPS from the hosting platform, a Content-Security-Policy meta tag, rel="noopener noreferrer" on external links, and input validation with escaped output.
+
+## 9.7. Responsive design
+
+The site uses a mobile-first-friendly flexible layout with breakpoints at 991px, 720px, 600px, 480px and 380px, fluid headings (clamp()), a collapsible menu and single-column layouts on phones. Horizontal scrolling was removed so pages scroll vertically only.
+
+Responsive design screenshots
+
+Screenshots were taken with Chrome DevTools device mode and are stored in Assets/screenshots/.
+Page	Phone (375px)	Tablet (768px)	Desktop (1440px)
+Home	Home on a phone	Home on a tablet	Home on a desktop
+About	About on a phone	About on a tablet	About on a desktop
+Services	Services on a phone	Services on a tablet	Services on a desktop
+Enquiry	Enquiry on a phone	Enquiry on a tablet	Enquiry on a desktop
+Contact	Contact on a phone	Contact on a tablet	Contact on a desktop
+
 
 ## Part 1 Correction
 
