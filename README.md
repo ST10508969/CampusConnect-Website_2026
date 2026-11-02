@@ -401,8 +401,14 @@ Contact	Contact on a phone	Contact on a tablet	Contact on a desktop
 
 All notable changes to the CampusConnect Foundation website are recorded here, newest first. Each entry states what changed, which file(s) it affected and why.
 
+[Part 3] – 2026-11-02 – Enhancing Functionality and SEO
+Part 2 feedback corrections
 
+Feedback 1: the About and Enquiry pages were not responsive in mobile view. To correct this, the mobile layouts of both pages were rebuilt. On the About page, the story, mission and vision, "Who We Serve", gallery and team sections now stack into one column on phones and two columns on tablets. On the Enquiry page, the form and the Track and FAQ cards stack into a single column, the form's two-column grid collapses to one column on phones, and all inputs, dropdowns and the textarea now fill their container (width: 100%) instead of overflowing. The padding on the form card was reduced, and form text is 16px on phones so that iPhones do not zoom in. Files affected: Pages/about.html, Pages/enquiry.html and css/style.css.
 
+Feedback 2: the README was missing screenshots demonstrating responsiveness. A "Responsive design screenshots" section was added to the README, showing every page at phone (375px), tablet (768px) and desktop (1440px) widths. The images are stored in Assets/screenshots/. Files affected: README.md and Assets/screenshots/.
+
+Feedback 3: the README was missing the updated references from Part 1. The Part 1 reference list was updated by correcting the W3Schools link (w3schols.com to w3schools.com) and the stray } and "Accessed at" typos, applying one consistent Harvard format, and merging it with the new Part 3 references into a single References section. File affected: README.md.
 
 ## Part 1 Correction
 
