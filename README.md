@@ -386,6 +386,23 @@ Services	Services on a phone	Services on a tablet	Services on a desktop
 Enquiry	Enquiry on a phone	Enquiry on a tablet	Enquiry on a desktop
 Contact	Contact on a phone	Contact on a tablet	Contact on a desktop
 
+## 9.8. Deployment
+- Platform: GitHub Pages (free hosting).
+- Steps: the project was pushed to the public GitHub repository, then Settings > Pages was opened, the source was set to Deploy from a branch, the main branch and / (root) folder were selected, and the site was saved and published.
+- Live link: https://st10508969.github.io/CampusConnect-Website_2026/
+- All pages were opened on the live link to confirm they load without errors.
+
+## 9.9. Updated features and technologies
+
+- Features added: interactive map, gallery lightbox, FAQ accordion, dynamic services with live search and sort, validated enquiry and contact forms with AJAX and email, enquiry tracking, SEO tags, robots.txt and sitemap.xml.
+- Technologies: HTML5, CSS3, JavaScript (ES6), Leaflet.js, OpenStreetMap, Font Awesome, Google Fonts (Poppins), Git and GitHub, GitHub Pages.
+
+## 10. Changelog
+
+All notable changes to the CampusConnect Foundation website are recorded here, newest first. Each entry states what changed, which file(s) it affected and why.
+
+
+
 
 ## Part 1 Correction
 
