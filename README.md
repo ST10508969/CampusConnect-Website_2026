@@ -161,6 +161,10 @@ CampusConnect-Website_2026
 - SEO: titles, meta tags, structured data, robots.txt and sitemap.xml
 - Font Awesome icons and Google Fonts
 
+## 7. Part 1: Wireframe
+
+Low-fidelity wireframe for all 5 pages of the site, showing the layout structure before visual design was applied.
+
 
 
 
