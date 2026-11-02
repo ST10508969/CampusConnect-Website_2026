@@ -158,7 +158,7 @@ CampusConnect-Website_2026
 - Dynamic services with live search and sort
 - Latest announcements and student support information
 - Responsive layout for phones, tablets and desktops
-- 
+- SEO: titles, meta tags, structured data, robots.txt and sitemap.xml
 - 
 
 
