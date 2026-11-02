@@ -359,6 +359,12 @@ On-page SEO
 - Clean, descriptive URLs (about.html, services.html, enquiry.html, contact.html) and internal links between all pages.
 - Mobile-friendly: viewport meta tag and responsive layout tested from 320px to 1440px.
 
+## 9.5. Off-page and local SEO
+
+- Social media profile links and Open Graph tags so shared links display a title and description.
+- Local SEO: JSON-LD Organization structured data with the Gqeberha / Nelson Mandela Bay address.
+- Backlink plan: share the live link on the Rosebank College student groups and the foundation's social media bios, and ask the RCL and campus management to link to the site.
+
 
 ## Part 1 Correction
 
