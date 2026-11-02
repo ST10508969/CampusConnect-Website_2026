@@ -156,6 +156,10 @@ CampusConnect-Website_2026
 - Gallery with lightbox
 - FAQ accordion
 - Dynamic services with live search and sort
+- Latest announcements and student support information
+- Responsive layout for phones, tablets and desktops
+- 
+- 
 
 
 
