@@ -290,6 +290,10 @@ Low-fidelity wireframe for all 5 pages of the site, showing the layout structure
 ## 8. Part 2: CSS (style.css)
 The stylesheet used across all pages of the site (index.html and everything under Pages/). It is saved at css/style.css, and every page links to it with a relative path.
 
+What it covers
+- Design tokens — CSS custom properties in :root for the colour palette (purple, teal, amber, green, pink, blue), border radii, shadows and container width
+- 
+
 
 
 
