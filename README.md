@@ -295,6 +295,10 @@ What it covers
 - Top bar & header — contact strip, sticky nav with active-link underline, mobile hamburger toggle
 - Home page — hero, About preview, "How We Help" card grid, announcements and help panel
 - Inner-page shared styles — page hero banner, breadcrumb, section headings
+- About page — story layout, Mission/Vision cards, Who We Serve grid, gallery, Meet Our Team cards
+- About page — story layout, Mission/Vision cards, Who We Serve grid, gallery, Meet Our Team cards
+- 
+
 
 
 
