@@ -8,6 +8,7 @@
 
 1. Project Overview
 2. Purpose
+3. Website Pages
 
 
 ## Project Overview
