@@ -165,6 +165,44 @@ CampusConnect-Website_2026
 
 Low-fidelity wireframe for all 5 pages of the site, showing the layout structure before visual design was applied.
 
+## 7.1. Home (index.html)
+┌──────────────────────────────────────────────────────────────┐
+│  info@campusconnectnmb.co.za  •  phone  •  address    Social  │
+├──────────────────────────────────────────────────────────────┤
+│  [Logo] CampusConnect     Home About Services Enquiry Contact │
+│                                                   [Get Started]│
+├──────────────────────────────────────────────────────────────┤
+│  Welcome to CampusConnect Foundation                          │
+│  Your Voice.                                     ┌──────────┐ │
+│  Your Campus.                                    │  [IMAGE] │ │
+│  Our Mission.                                    └──────────┘ │
+│  paragraph...                                                 │
+│  [ Learn More ]  [ Submit Enquiry ]                            │
+├──────────────────────────────────────────────────────────────┤
+│  ┌──────────┐   About CampusConnect Foundation                │
+│  │  [IMAGE] │   paragraph...                                  │
+│  └──────────┘   [ Read More ]                                 │
+├──────────────────────────────────────────────────────────────┤
+│  Our Services                                                 │
+│  [Student   [Academic   [Campus        [Contact   [Track      │
+│   Support]   Support]    Announcements] Directory]  Issues]   │
+├──────────────────────────────────────────────────────────────┤
+│  Latest Announcements                 │  Need to Submit an    │
+│  • Important Notice ........ 12 May   │  Issue?               │
+│  • Campus Maintenance ...... 10 May   │  We are here to       │
+│  • RCL Meeting .............. 08 May  │  listen and help.     │
+│                                        │  [ Submit Enquiry ]   │
+├──────────────────────────────────────────────────────────────┤
+│  [Logo]      Quick Links   Services      Contact Us            │
+│  tagline     Home          Student Sup.  email                 │
+│              About         Academic Sup. phone                 │
+│              Services      Announcements address               │
+│              Enquiry       Resources                           │
+│              Contact       Track Issues                        │
+├──────────────────────────────────────────────────────────────┤
+│  © 2026 CampusConnect Foundation.        Privacy | Terms       │
+└──────────────────────────────────────────────────────────────┘
+
 
 
 
