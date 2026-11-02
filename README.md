@@ -18,6 +18,8 @@
 10. Changelog
 11. Future Improvements
 12. Author
+13. License
+
 
 
 ## Project Overview
