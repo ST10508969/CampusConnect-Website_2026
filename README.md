@@ -57,7 +57,7 @@ The homepage introduces CampusConnect Foundation and includes:
 - Navigation menu, footer and newsletter box
 
 
-## 3.2. About (about.html)
+## 3.2. About (Pages/about.html)
 This page tells us the story of CampusConnect and includes
 
 - Our story, mission and vision
@@ -65,7 +65,7 @@ This page tells us the story of CampusConnect and includes
 - Campus life image gallery with lightbox
 - Meet our team
 
-### 3.3. Services (services.html)
+### 3.3. Services (Pages/services.html)
 
 This page explains the services offered by CampusConnect Foundation:
 
