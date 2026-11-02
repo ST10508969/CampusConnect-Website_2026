@@ -14,6 +14,7 @@
 6. Features
 7. Part 1: Wireframe
 8. Part 2: CSS
+9. Part 3: Enhancing Functionality and SEO
 
 
 
