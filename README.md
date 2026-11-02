@@ -43,10 +43,10 @@ The purpose of this website is to:
 - Provide contact information for the RCL and campus management.
 
 ---
-## Website Pages
+## 3. Website Pages
 
 
-### 1. Home (index.html)
+### 3.1. Home (index.html)
 
 The homepage introduces CampusConnect Foundation and includes:
 
@@ -56,7 +56,16 @@ The homepage introduces CampusConnect Foundation and includes:
 - About preview and "Need Help Now?" panel
 - Navigation menu, footer and newsletter box
 
-### 3. Services (services.html)
+
+## 3.2. About (about.html)
+This page tells us the story of CampusConnect and includes
+
+- Our story, mission and vision
+- Who we serve (students,RCLs lecturers,campus manangment)
+- Campus life image gallery with lightbox
+- Meet our team
+
+### 3.3. Services (services.html)
 
 This page explains the services offered by CampusConnect Foundation:
 
