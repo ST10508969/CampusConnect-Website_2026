@@ -154,7 +154,7 @@ CampusConnect-Website_2026
 - Contact form that complies a validated 
 - Interactive Leaflet map
 - Gallery with lightbox
-
+- FAQ accordion
 
 
 
