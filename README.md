@@ -332,7 +332,14 @@ Gallery lightbox	About	Clicking an image opens it in a larger overlay with next,
 Animations	All pages	CSS transitions on hover, accordion and lightbox; prefers-reduced-motion is respected.
 Newsletter box	Home	Validates the email address and shows a confirmation message.
 
+## 9.2. Forms and validation
 
+Enquiry form (Pages/enquiry.html)
+
+- Controls: text, email, phone, dropdown, textarea, radio buttons and a consent checkbox, all with labels.
+- Validation: required fields, name length, student number (6–10 digits), email format, South African phone format, subject and description length. Error messages appear under each field and clear as the user corrects them.
+- Processing: the form is submitted with fetch() (AJAX) to a testing API. The user receives a category-specific response covering cost, expected response time and the department that will handle the issue, plus a reference number.
+- Tracking: the reference number is saved in the browser (localStorage) so the Track Your Issue box can look it up
 
 
 ## Part 1 Correction
