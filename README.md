@@ -348,6 +348,17 @@ Enquiry form (Pages/enquiry.html)
 - Validation: same rules and error messages as the enquiry form.
 - Email: once validated, the details are compiled into an email (mailto: link) addressed to info@campusconnectnmb.co.za, which opens in the user's email app ready to send.
 
+## 9.4. Search Engine Optimisation (SEO)
+
+On-page SEO
+
+- Unique, keyword-rich <title> and meta description for every page.
+- Meta keywords on every page (e.g. student support, Rosebank College, Gqeberha, Nelson Mandela Bay, RCL).
+- One <h1> per page with a logical <h2>–<h3> structure.
+- Descriptive image file names (e.g. students-collaborating-campus.jpg) and meaningful alt text; images have width/height and lazy-loading.
+- Clean, descriptive URLs (about.html, services.html, enquiry.html, contact.html) and internal links between all pages.
+- Mobile-friendly: viewport meta tag and responsive layout tested from 320px to 1440px.
+
 
 ## Part 1 Correction
 
