@@ -227,6 +227,25 @@ Low-fidelity wireframe for all 5 pages of the site, showing the layout structure
 │  Footer (same as Home)                                          │
 └──────────────────────────────────────────────────────────────┘
 
+## 7.3. Services Page (Pages/services.html)
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header ("Services" active)                          │
+├──────────────────────────────────────────────────────────────┤
+│                        Our Services                            │
+│                      Home / Services                           │
+├──────────────────────────────────────────────────────────────┤
+│  [Student    [Academic    [Campus                              │
+│   Support]    Support]     Announcements]                      │
+│                                                                  │
+│  [Contact    [Resources    [Issue                               │
+│   Directory]  & FAQs]       Tracking]                           │
+├──────────────────────────────────────────────────────────────┤
+│  We are here to support you every step of the way.             │
+│                                        [ Submit an Enquiry ]    │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+
 
 
 
