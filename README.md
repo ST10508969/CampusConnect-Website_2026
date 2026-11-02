@@ -313,6 +313,13 @@ project-root/
     └── contact.html
 
 
+## 9. Part 3: Enhancing Functionality and SEO
+Live website: https://st10508969.github.io/CampusConnect-Website_2026/ 
+GitHub repository: https://github.com/st10508969/CampusConnect-Website_2026
+
+
+
+
 
 
 ## Part 1 Correction
