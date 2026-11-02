@@ -7,6 +7,7 @@
 # Table of Contents
 
 1. Project Overview
+2. Purpose
 
 
 ## Project Overview
