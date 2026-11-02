@@ -10,7 +10,7 @@
 2. Purpose
 3. Website Pages
 4. Technologies Used
-
+5. Website Hierarchy
 
 
 ## Project Overview
