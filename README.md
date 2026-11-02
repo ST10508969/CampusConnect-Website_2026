@@ -296,9 +296,10 @@ What it covers
 - Home page — hero, About preview, "How We Help" card grid, announcements and help panel
 - Inner-page shared styles — page hero banner, breadcrumb, section headings
 - About page — story layout, Mission/Vision cards, Who We Serve grid, gallery, Meet Our Team cards
-- About page — story layout, Mission/Vision cards, Who We Serve grid, gallery, Meet Our Team cards
-- 
-
+- Contact page — 3-card info row, message form, office hours list, map
+- Enquiry page — submit-issue form, track-issue card, FAQ accordion 
+- Footer — 4-column layout, legal bar
+- Responsive breakpoints — 1400px, 991px, 720px, 600px, 480px and 380px for large-screen, tablet and mobile layout changes
 
 
 
