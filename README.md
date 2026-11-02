@@ -114,6 +114,15 @@ This page includes:
 - GitHub Pages (hosting)
 - Leaflet.js and OpenStreetMap
 
+## 5. Website Hierarchy
+
+Home (index.html)
+|
+|_ About
+|_ Services
+|_ Enquiry
+|_ Contact
+
 
 
 ## Part 1 Correction
