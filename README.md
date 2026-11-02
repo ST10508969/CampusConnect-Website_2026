@@ -79,7 +79,7 @@ This page explains the services offered by CampusConnect Foundation:
 
 ---
 
-### 4. Enquiry (Pages/enquiry.html)
+### 3.4. Enquiry (Pages/enquiry.html)
 
 
 Students can:
@@ -89,7 +89,7 @@ Students can:
 - View FAQs in an accordion
 
 ---
-### 5. Contact (Pages/contact.html)
+### 3.5. Contact (Pages/contact.html)
 
 
 This page includes:
@@ -102,14 +102,18 @@ This page includes:
 
 ---
 
-## Technologies Used
+## 4. Technologies Used
 
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6)
 - Google Fonts (Poppins)
 - Font Awesome Icons
+- Git and Github
+- GitHub Pages (hosting)
+- Leaflet.js and OpenStreetMap
+
 
 
 ## Part 1 Correction
