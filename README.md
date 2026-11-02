@@ -246,6 +246,26 @@ Low-fidelity wireframe for all 5 pages of the site, showing the layout structure
 │  Footer (same as Home)                                          │
 └──────────────────────────────────────────────────────────────┘
 
+## 7.4. Enquiry Page (Pages/enquiry.html)
+┌──────────────────────────────────────────────────────────────┐
+│  Top bar + Header ("Enquiry" active)                            │
+├──────────────────────────────────────────────────────────────┤
+│                     Submit an Enquiry                          │
+│                      Home / Enquiry                             │
+├──────────────────────────────────────────────────────────────┤
+│  Submit an Issue                       │  Track Your Issue     │
+│  Full Name        Student Number       │  [Reference Number]   │
+│  Email Address     Phone Number        │  [ Track Issue ]      │
+│  Category (dropdown)                    │                       │
+│  Subject                                │  FAQs                 │
+│  Description                            │  • How do I submit?  │
+│  [ Submit Issue ]                       │  • How long...?      │
+│                                          │  • How do I track?   │
+│                                          │  • What issues...?   │
+├──────────────────────────────────────────────────────────────┤
+│  Footer (same as Home)                                          │
+└──────────────────────────────────────────────────────────────┘
+
 
 
 
