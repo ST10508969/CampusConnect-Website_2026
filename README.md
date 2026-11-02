@@ -342,6 +342,13 @@ Enquiry form (Pages/enquiry.html)
 - Tracking: the reference number is saved in the browser (localStorage) so the Track Your Issue box can look it up
 
 
+## 9.3. Contact form (Pages/contact.html)
+
+- Controls: name, email, optional phone, message-type dropdown, subject and message.
+- Validation: same rules and error messages as the enquiry form.
+- Email: once validated, the details are compiled into an email (mailto: link) addressed to info@campusconnectnmb.co.za, which opens in the user's email app ready to send.
+
+
 ## Part 1 Correction
 
 # References
