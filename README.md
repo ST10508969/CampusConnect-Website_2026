@@ -124,6 +124,37 @@ Home (index.html)
 |_ Contact
 
 
+## 5.1. Project folder structure
+
+CampusConnect-Website_2026
+├── Assets
+│   ├── images
+│   └── screenshots
+├── css
+│   └── style.css
+├── js
+│   └── script.js
+├── Pages
+│   ├── about.html
+│   ├── contact.html
+│   ├── enquiry.html
+│   ├── privacy.html
+│   ├── services.html
+│   └── terms.html
+├── index.html
+├── README.md
+├── robots.txt
+└── sitemap.xml
+
+## 6. Features
+
+- Responsive navigation with a mobile hamburger menu
+- Student enquiry form with validation and a category-specific response
+- Issue tracking by refernce number
+- Contact form that complies a validated 
+
+
+
 
 ## Part 1 Correction
 
