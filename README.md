@@ -16,6 +16,7 @@
 8. Part 2: CSS
 9. Part 3: Enhancing Functionality and SEO
 10. Changelog
+11. Future Improvements
 
 
 ## Project Overview
