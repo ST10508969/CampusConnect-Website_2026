@@ -159,7 +159,7 @@ CampusConnect-Website_2026
 - Latest announcements and student support information
 - Responsive layout for phones, tablets and desktops
 - SEO: titles, meta tags, structured data, robots.txt and sitemap.xml
-- 
+- Font Awesome icons and Google Fonts
 
 
 
