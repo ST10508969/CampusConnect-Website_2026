@@ -1415,3 +1415,142 @@ img, video, iframe, canvas, svg, .leaflet-container { max-width: 100%; }
 
 /* 6. Long words, emails and URLs wrap instead of overflowing */
 p, h1, h2, h3, h4, li, td, label, .error-msg, .form-status { overflow-wrap: break-word; }
+
+
+/* =========================================================
+    SOUTH AFRICAN DATE AND MIDNIGHT COUNTDOWN
+   CampusConnect Foundation
+========================================================= */
+
+.daily-info-section {
+    width: 100%;
+    padding: 45px 0;
+    background: #f5f8fc;
+}
+
+.daily-info-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 35px 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    border-left: 5px solid #009c9a;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+/* Date heading */
+
+.daily-info-panel h2 {
+    color: #25245f;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Date labels */
+
+.daily-date-label {
+    color: #666666;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+/* Current South African date */
+
+.daily-date {
+    color: #009c9a;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Countdown container */
+
+.countdown-block {
+    text-align: right;
+}
+
+/* Midnight countdown display */
+
+.midnight-countdown {
+    color: #6554c0;
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Countdown explanation */
+
+.countdown-caption {
+    color: #777777;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Hover effect */
+
+.daily-info-panel:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+}
+
+/* =========================================================
+   RESPONSIVE DESIGN
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .daily-info-section {
+        padding: 30px 15px;
+    }
+
+    .daily-info-panel {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .daily-info-panel h2 {
+        font-size: 1.3rem;
+    }
+
+    .daily-date {
+        font-size: 1.2rem;
+    }
+
+    .countdown-block {
+        text-align: left;
+        width: 100%;
+    }
+
+    .midnight-countdown {
+        font-size: 1.8rem;
+    }
+
+    .countdown-caption {
+        font-size: 0.75rem;
+    }
+}
+
+/* Smaller mobile screens */
+
+@media (max-width: 480px) {
+
+    .daily-info-panel {
+        padding: 20px;
+    }
+
+    .midnight-countdown {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+}

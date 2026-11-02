@@ -234,3 +234,81 @@ setupForm('contactForm', async data => {
     if (!m) f.reset();
   });
 })();
+// =========================================================
+    // 6. SOUTH AFRICAN DATE AND MIDNIGHT COUNTDOWN
+    // =========================================================
+
+    const dateDisplay =
+        document.getElementById('current-date');
+
+    const countdownDisplay =
+        document.getElementById('midnight-countdown');
+
+    if (dateDisplay && countdownDisplay) {
+
+        const timeZone = 'Africa/Johannesburg';
+
+        const dateFormatter = new Intl.DateTimeFormat('en-ZA', {
+            timeZone: timeZone,
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        const clockFormatter = new Intl.DateTimeFormat('en-GB', {
+            timeZone: timeZone,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hourCycle: 'h23'
+        });
+
+        const updateDailyInfo = () => {
+
+            const now = new Date();
+
+            // Show the current date in South Africa.
+            dateDisplay.textContent = dateFormatter.format(now);
+
+            // Extract South African clock values.
+            const parts = Object.fromEntries(
+                clockFormatter.formatToParts(now).map(
+                    (part) => [part.type, part.value]
+                )
+            );
+
+            const hour = Number(parts.hour);
+            const minute = Number(parts.minute);
+            const second = Number(parts.second);
+
+            // Calculate seconds remaining until midnight.
+            const elapsed =
+                hour * 3600 + minute * 60 + second;
+
+            const remaining = Math.max(
+                0,
+                86399 - elapsed
+            );
+
+            const hours = String(
+                Math.floor(remaining / 3600)
+            ).padStart(2, '0');
+
+            const minutes = String(
+                Math.floor((remaining % 3600) / 60)
+            ).padStart(2, '0');
+
+            const seconds = String(
+                remaining % 60
+            ).padStart(2, '0');
+
+            countdownDisplay.textContent =
+                `${hours}:${minutes}:${seconds}`;
+        };
+
+        // Update immediately and then every second.
+        updateDailyInfo();
+
+        window.setInterval(updateDailyInfo, 1000);
+    }
