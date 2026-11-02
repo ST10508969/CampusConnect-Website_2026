@@ -437,6 +437,31 @@ Feedback 3: the README was missing the updated references from Part 1. The Part 
 - robots.txt: created to tell crawlers which pages to index. File: robots.txt.
 - sitemap.xml: created listing every page of the site. File: sitemap.xml.
 
+## 10.4. Added – Performance and security
+- Page speed: added display=swap and preconnect for Google Fonts, defer on scripts and lazy-loading on images. Files: all HTML pages.
+- Security: added a Content-Security-Policy meta tag, rel="noopener noreferrer" on external links, and escaping of text inserted with JavaScript. The site is served over HTTPS by the host. Files: all HTML pages, js/script.js.
+
+## 10.5. Deployment
+- GitHub Pages: published the site from the main branch of the GitHub repository so all pages are available on a live link (see the Part 3 section for the link).
+
+## 10.6. Fixed
+- script.js not loading: linked js/script.js on every page with defer and removed the duplicate inline menu scripts that caused a "menuToggle already declared" conflict. Files: all HTML pages.
+- Services search bug: the inline script used the wrong element id (servicesSearch instead of serviceSearch), the wrong variable name (noresults) and a typo (card.stylr). Removed it in favour of the working search in script.js. File: Pages/services.html.
+- Validation styles: the .invalid, .error-msg and .form-status rules were accidentally inside the @media (max-width: 480px) block, so they only applied on very small screens. Moved them outside so they apply at all sizes. File: css/style.css.
+- Missing styles: added styles for classes used in the HTML but not defined (.team-grid, .team-card, .team-heading, .cta-banner, .faq-list, .track-form, .info-row-3, .info-card-alt, .icon-circle, .outline-btn-sm, .two-col, .single). File: css/style.css.
+- Mobile header: on phones the "Get Started" button wrapped onto its own row under the logo. The hamburger menu now starts at 991px, the button and tagline are hidden below 600px (Enquiry is still in the menu), and the logo can shrink on very small screens. File: css/style.css.
+- Sideways scrolling: pages could be swiped left and right on mobile. Form controls now fit their containers, grid and flex columns can shrink, long words wrap, and horizontal overflow is clipped at page level, so pages scroll vertically only. Layout tested from 320px to 1440px. File: css/style.css.
+- Broken home link: the Home link on index.html pointed to ../index.html; changed to index.html. File: index.html.
+- Inconsistent email: index.html used info@campusconnect.org.za while every other page used info@campusconnectnmb.co.za; made them consistent. File: index.html.
+- Broken team images: replaced the src="#" placeholders on the About page with real images and descriptive alt text. File: Pages/about.html.
+- Typo: "different keyboard" corrected to "different keyword" in the no-results message. File: Pages/services.html.
+
+## 10.7. Documentation
+- README: added a Part 3 section, updated Features and Technologies Used, removed "Search functionality" from Future Improvements (now implemented), fixed the page numbering and the duplicated Part 2 section, and completed the License line.
+- References: corrected the W3Schools link and date formatting and added references for Leaflet, OpenStreetMap, Font Awesome, Google Fonts and Unsplash.
+
+
+
 ## Part 1 Correction
 
 # References
