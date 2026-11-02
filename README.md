@@ -153,6 +153,7 @@ CampusConnect-Website_2026
 - Issue tracking by refernce number
 - Contact form that complies a validated 
 - Interactive Leaflet map
+- Gallery with lightbox
 
 
 
