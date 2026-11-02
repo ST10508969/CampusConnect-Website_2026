@@ -1257,7 +1257,7 @@ footer { background: var(--purple-900); color: rgba(255, 255, 255, 0.78); }
 }
 
 
-}
+
 
 .service-search {
     position: relative;
@@ -1301,3 +1301,117 @@ footer { background: var(--purple-900); color: rgba(255, 255, 255, 0.78); }
 .help-card.hide {
     display: none;
 }
+
+
+/* Validation + status (moved out of the 480px media query) */
+
+.form-group .invalid, .track-form .invalid { border-color: #DC2626; background-color: #FEF2F2; }
+
+.error-msg { display: block; color: #DC2626; font-size: 0.8rem; margin-top: 2px; }
+
+.form-status { grid-column: 1 / -1; padding: 12px 15px; margin-bottom: 15px; border-radius: 8px; font-size: 0.9rem; line-height: 1.5; }
+
+.form-status.success { color: #166534; background: #DCFCE7; border: 1px solid #86EFAC; }
+
+.form-status.error { color: #991B1B; background: #FEE2E2; border: 1px solid #FCA5A5; }
+
+.form-submit:disabled { opacity: 0.65; cursor: not-allowed; transform: none; }
+
+.form-group.check { flex-direction: row; align-items: flex-start; gap: 10px; }
+
+.form-group.check input { width: auto; margin-top: 4px; }
+
+.radio-row { display: flex; gap: 18px; flex-wrap: wrap; font-size: 0.9rem; }
+
+
+/* Previously missing classes */
+.form-grid.single { grid-template-columns: 1fr; }
+
+.values-grid.two-col { grid-template-columns: 1fr 1fr; margin-bottom: 50px; }
+
+.team-heading { text-align: center; font-size: 1.9rem; margin: 60px 0 30px; }
+
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+
+.team-card { text-align: center; padding: 28px 20px; border: 1px solid var(--gray-200); border-radius: var(--radius-md); }
+
+.team-card img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin: 0 auto 14px; background: var(--purple-50); }
+
+.team-card h4 { font-size: 1rem; } .team-card span { color: var(--gray-500); font-size: 0.85rem; }
+
+.cta-banner { margin-top: 50px; background: linear-gradient(120deg, var(--purple-800), var(--purple-700)); color: var(--white); border-radius: var(--radius-md); padding: 34px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+
+.cta-banner .dark-btn { background: var(--teal-600); }
+
+.info-row-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+
+.info-card-alt { text-align: center; background: var(--bg-hero); border-radius: var(--radius-md); padding: 30px 22px; }
+.info-card-alt p { color: var(--gray-500); font-size: 0.88rem; margin: 8px 0 16px; }
+.icon-circle { width: 56px; height: 56px; border-radius: 50%; background: var(--purple-50); color: var(--purple-700); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; margin: 0 auto 14px; }
+.outline-btn-sm { display: inline-block; border: 1.5px solid var(--purple-700); color: var(--purple-700); padding: 8px 20px; border-radius: 999px; font-size: 0.85rem; font-weight: 500; transition: background 0.2s, color 0.2s; }
+.outline-btn-sm:hover { background: var(--purple-700); color: var(--white); }
+.track-form { display: flex; gap: 10px; flex-wrap: wrap; }
+.track-form input { flex: 1; min-width: 140px; border: 1.5px solid var(--gray-200); border-radius: var(--radius-sm); padding: 11px 14px; font-family: inherit; }
+.track-form button { border: none; background: var(--purple-700); color: var(--white); padding: 11px 20px; border-radius: 999px; font-family: inherit; cursor: pointer; }
+#trackResult { margin-top: 14px; }
+.map-frame, #leafletMap { z-index: 0; }
+.service-tools { display: flex; gap: 14px; max-width: 760px; margin: 0 auto 32px; flex-wrap: wrap; }
+.service-tools .service-search { flex: 1; margin: 0; min-width: 240px; }
+.service-tools select { padding: 13px 18px; border: 1.5px solid #e5e7eb; border-radius: 50px; font-family: inherit; background: #fff; }
+
+/* Accordion (FAQs) */
+.accordion-item { border-bottom: 1px solid var(--gray-200); }
+.accordion-btn { width: 100%; text-align: left; background: none; border: none; padding: 14px 0; font-family: inherit; font-size: 0.92rem; font-weight: 500; cursor: pointer; display: flex; justify-content: space-between; gap: 10px; color: var(--ink); }
+.accordion-btn i { color: var(--teal-600); transition: transform 0.25s ease; }
+.accordion-btn[aria-expanded="true"] i { transform: rotate(180deg); }
+.accordion-panel { padding: 0 0 14px; color: var(--gray-500); font-size: 0.88rem; animation: fadeIn 0.3s ease; }
+.accordion-panel[hidden] { display: none; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+/* Gallery + lightbox */
+.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-md); cursor: zoom-in; transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.gallery img:hover, .gallery img:focus-visible { transform: scale(1.03); box-shadow: var(--shadow-card); }
+.lightbox { position: fixed; inset: 0; background: rgba(20, 10, 40, 0.92); display: flex; align-items: center; justify-content: center; z-index: 1000; animation: fadeIn 0.25s ease; }
+.lightbox[hidden] { display: none; }
+.lightbox img { max-width: 86vw; max-height: 78vh; border-radius: 10px; }
+.lightbox button { position: absolute; background: rgba(255, 255, 255, 0.15); color: #fff; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.3rem; cursor: pointer; }
+.lb-close { top: 20px; right: 20px; } .lb-prev { left: 20px; } .lb-next { right: 20px; }
+.lb-cap { position: absolute; bottom: 24px; color: #fff; font-size: 0.9rem; text-align: center; padding: 0 20px; }
+
+@media (max-width: 991px) { .team-grid, .gallery, .info-row-3 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .team-grid, .gallery, .info-row-3, .values-grid.two-col { grid-template-columns: 1fr; } }
+
+.result-count { text-align: center; color: var(--gray-500); font-size: 0.85rem; margin: -14px 0 18px; min-height: 1.2em; }
+
+/* Footer headings are <h2> on the new pages (was <h4>) */
+.footer-col h2 { color: var(--white); font-size: 1rem; margin-bottom: 20px; }
+
+/* ===== no-horizontal-scroll.css =====. */
+
+/* 1. Safety net. "clip" (unlike "hidden") does not break the sticky header. */
+html, body { max-width: 100%; overflow-x: clip; }
+
+/* 2. Main cause: inputs, selects and textareas have a built-in minimum width
+      (a <select> is as wide as its longest option). In a narrow grid column that
+      forced the column, and the whole page, wider than the phone. */
+.form-group input:not([type="checkbox"]):not([type="radio"]),
+.form-group select,
+.form-group textarea { width: 100%; max-width: 100%; min-width: 0; }
+
+/* 3. Let grid/flex columns shrink below their content's natural width */
+.form-group, .form-grid > *, .form-layout > *, .help-grid > *, .values-grid > *,
+.footer-grid > *, .hero .container > *, .story-section .container > *,
+.split-section > *, .info-row-3 > *, .team-grid > *, .gallery > * { min-width: 0; }
+
+/* 4. Header: logo may shrink on tiny phones instead of pushing the page wide */
+.logo { flex-shrink: 1; min-width: 0; }
+.logo-text { min-width: 0; }
+.newsletter-form input { min-width: 0; width: 100%; }
+
+/* 5. Media and map never wider than their box */
+img, video, iframe, canvas, svg, .leaflet-container { max-width: 100%; }
+.map-frame { max-width: 100%; }
+
+/* 6. Long words, emails and URLs wrap instead of overflowing */
+p, h1, h2, h3, h4, li, td, label, .error-msg, .form-status { overflow-wrap: break-word; }
