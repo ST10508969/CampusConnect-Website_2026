@@ -287,6 +287,9 @@ Low-fidelity wireframe for all 5 pages of the site, showing the layout structure
 │  Footer (same as Home)                                          │
 └──────────────────────────────────────────────────────────────┘
 
+## 8. Part 2: CSS (style.css)
+The stylesheet used across all pages of the site (index.html and everything under Pages/). It is saved at css/style.css, and every page links to it with a relative path.
+
 
 
 
